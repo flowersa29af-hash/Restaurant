@@ -1,0 +1,22 @@
+/* basic stlye of tables */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  marin-bottom: 20px;
+
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: ceter;
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+th{
+    background-color:lightblue;
+    
+}
