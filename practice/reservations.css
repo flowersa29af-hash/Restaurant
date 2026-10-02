@@ -1,5 +1,5 @@
 table{
-    width: 100%;
+    width: 500px;
     border-collapse: collapse;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -11,4 +11,31 @@ th,td{
     text-align: center;
     font-size: 14px;
     padding: 10px;
+    
+
 }
+.customer-name {
+    width: 400px;
+}
+.date {
+    width: 250px;
+}
+
+.status {
+font-weight: bold;
+text-align: center;
+padding: 6px 10px;
+border-radius: 5px;
+}
+
+.confirmed {
+background-color: #4CAF50; /* Green */
+}
+.pending {
+background-color: #FF9800; /* Orange */
+}
+.cancelled {
+background-color: #dc3545; /* Red */
+}
+
+
