@@ -3,6 +3,53 @@ p{
 background-color:antiquewhite;
 padding: 10px;
 font-weight: bold;
-margin: 1px; 
+margin: 10px; 
+}
+
+.container-flex-start{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+
+}
+
+.container-flex-end{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.container-center{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.container-space-between{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.container-space-around{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.container-space-evenly{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+/* Grid Layout */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:3px;
+}
+
+.grid-item{
+    background-color: lightblue;
+    padding:20px;
+    text-align: center;
 }
 
