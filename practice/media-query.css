@@ -16,6 +16,7 @@ header{
 }
 main{
     background-color: blue;
+    height: 40vh;
 
 }
 
@@ -23,27 +24,36 @@ footer{
     background-color: green;
     height: 30vh;
 }
-
-@media(min-width: 600px) and (max-width: 900px){
+/* tablet */
+@media(min-width: 601px) and (max-width: 768px){
     header{
         background-color: red;
     }
-    width: 85%;{
+    P{
+        width: 85%;
     }
-
     a{
-        diplay:none;
+        display: block;
+        display:none;
+    }
+}
 
-
+@media(max-width: 600px){
+    header{
+    background-color: aqua;
+    }
+    p{
+        font-size: 20px;
+        width: 95%;
     }
 
-
-    @media (min-width: 600px){
-        header{
-            background-color: yellow;
-        }
-        P{
-            font-size: 20px;
-            width: 95%;
-        }
+}
+@media(max-width: 600px){
+    header{
+        background-color: yellow;
     }
+    p{
+        width: 95%;
+        font-size: 20px;
+    }
+}
